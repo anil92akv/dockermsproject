@@ -2,19 +2,19 @@
 version: "3.8"
 services:
   movies:
-    image: anil1992lodhi/moviesrepo:latest
+    image: anil1992lodhi/moviesrepo
     ports:
       - 81:80
     deploy:
-    
+      replicas: 3
   train:
-    image: anil1992lodhi/trainsrepo:latest
+    image: anil1992lodhi/trainsrepo
     ports:
       - 82:80
     deploy:
-     
+      replicas: 3
   dth:
-    image: anil1992lodhi/dthrepo:latest
+    image: anil1992lodhi/dthrepo
     ports:
       - 83:80
     deploy:
