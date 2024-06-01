@@ -20,7 +20,7 @@ services:
     deploy:
       replicas: 3
   recharge:
-    image: anil1992lodhi/rechargerepo
+    image: anil1992lodhi/rechargesrepo:latest
     ports:
       - 84:80
     deploy:
