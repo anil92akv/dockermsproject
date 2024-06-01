@@ -6,13 +6,13 @@ services:
     ports:
       - 81:80
     deploy:
-      replicas: 3
+    
   train:
     image: anil1992lodhi/trainsrepo:latest
     ports:
       - 82:80
     deploy:
-      replicas: 3
+     
   dth:
     image: anil1992lodhi/dthrepo:latest
     ports:
